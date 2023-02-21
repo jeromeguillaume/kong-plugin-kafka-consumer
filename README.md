@@ -38,10 +38,10 @@ http :8000/kafkaConsumer
 ```
 The plugin retrives the **last message** from the topic and the expected result is:
 ```json
-HTTP/1.1 200 OK
-...
-Server: kong/3.1.1.3-enterprise-edition
-X-Kong-Response-Latency: 423
+'HTTP/1.1 200 OK'
+'...'
+'Server: kong/3.1.1.3-enterprise-edition'
+'X-Kong-Response-Latency: 423'
 {
     "Kafka Topic Name": "test"
     "Kafka Topic Message(s)": {
@@ -60,10 +60,10 @@ http :8000/kafkaConsumer
 ```
 The plugin retrives the **all messages** from the topic and the expected result is:
 ```json
-'HTTP/1.1 200 OK
-...
-Server: kong/3.1.1.3-enterprise-edition
-X-Kong-Response-Latency: 50'
+'HTTP/1.1 200 OK'
+'...'
+'Server: kong/3.1.1.3-enterprise-edition'
+'X-Kong-Response-Latency: 50'
 {
     "Kafka Topic Name": "test"
     "Kafka Topic Message(s)": {
