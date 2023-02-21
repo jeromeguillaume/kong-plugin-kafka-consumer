@@ -54,7 +54,7 @@ X-Kong-Response-Latency: 423
     }
 }
 ```
-3) Test the route with offset equals to first:
+3) Test the route with offset equals to ```First```:
 - Open the ```kafkaConsumer```, change ```kafka_offset_timestamp``` to ```First``` and Save
 - Test the rooute:
 ```
