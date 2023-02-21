@@ -60,7 +60,7 @@ X-Kong-Response-Latency: 423
 ```
 http :8000/kafkaConsumer
 ```
-The plugin retrives the **all messages** from the topic and the expected result is:
+The plugin retrives **all messages** from the topic and the expected result is:
 ```
 HTTP/1.1 200 OK
 ...
