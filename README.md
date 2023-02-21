@@ -21,7 +21,7 @@ kafka-console-producer.sh --bootstrap-server localhost:9092 --topic test
 ```
 Type ```kong1``` and press Enter
 
-- Consume a message from the ```test``` Kafka topic, open a new terminal (#2):
+- Consume the ```kong1``` message from the ```test``` Kafka topic, open a new terminal (#2):
 ```
 docker exec -it kafka-kafka-1 bash
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
