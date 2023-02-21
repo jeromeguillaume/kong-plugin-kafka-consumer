@@ -1,6 +1,6 @@
 # kafka-consumer: Kong custom plugin
 This is a custom plugin for Kong to consume messages from Kafka topics.
-It uses the Lua library [lua-resty-kafka](https://github.com/doujiang24/lua-resty-kafka) version +0.20 which is a Kafka client driver for the ngx_lua nginx module
+It uses the Lua library [lua-resty-kafka](https://github.com/doujiang24/lua-resty-kafka) version 0.20 which is a Kafka client driver for the ngx_lua nginx module. The [lua-resty-kafka](https://github.com/doujiang24/lua-resty-kafka), version already embedded in Kong Gateway (for [kafka-log](https://docs.konghq.com/hub/kong-inc/kafka-log/#implementation-details) and [kafka-upstream plugins](https://docs.konghq.com/hub/kong-inc/kafka-upstream/#implementation-details)), is 0.14 so we update the Lua library.
 
 ## How deploy the plugin in Kong and Kafka environment?
 1) Git clone this repository
